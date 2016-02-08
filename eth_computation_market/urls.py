@@ -25,6 +25,10 @@ urlpatterns = [
         r'^$', TemplateView.as_view(template_name='home.html'),
         name="site-index",
     ),
+    url(
+        r'^marketplace/$', TemplateView.as_view(template_name='marketplace.html'),
+        name="marketplace",
+    ),
 ]
 
 
