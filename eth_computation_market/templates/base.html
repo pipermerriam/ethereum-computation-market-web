@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% load static pipeline argonauts %}
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Ethereum Computation Market{% endblock %}</title>
+        <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+        <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+        {% if ROLLBAR_CONFIG %}
+            <script type="text/javascript">var _rollbarConfig = {{ ROLLBAR_CONFIG|json }};</script>
+            {% javascript 'rollbar' %}
+        {% endif %}
+
+        {% stylesheet 'dependencies' %}
+        {% stylesheet 'main' %}
+
+        {% block extra_css %}
+        {% endblock %}
+    </head>
+
+    <body>
+    {% block body %}
+        <nav class="navbar navbar-dark bg-inverse">
+          <h1 class="navbar-brand"><a class="nav-link" href="{% url 'site-index' %}">Ethereum Computation Market</a></h1>
+          <ul class="nav navbar-nav pull-right">
+              <p class="navbar-text">Address: <code>TODO</code></p>
+              <li role="separator" class="divider"></li>
+              {# <li><a href="{% url 'source-latest' %}">Source</a></li> #}
+              <li class="nav-item"><a href="//docs.ethereum-computation-market.com">Documentation</a></li>
+              <li class="nav-item"><a href="//blog.ethereum-computation-market.com">Blog</a></li>
+          </ul>
+        </nav>
+        <div class="main-content">
+            {% block content_wrapper %}
+            {% endblock content_wrapper %}
+            <div id="footer" class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                        <ul class="list-inline">
+                            <li>Created by Piper Merriam - <a href="https://github.com/pipermerriam/" target="_blank">github</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% javascript 'dependencies' %}
+        {% javascript 'main' %}
+
+        {% block extra_javascript %}
+        {% endblock %}
+    {% endblock body %}
+    </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "ethereum-computation-market-web",
+  "description": "Website for the Ethereum Computation Market",
+  "main": "index.js",
+  "authors": [
+    "Piper Merriam <pipermerriam@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Ethereum"
+  ],
+  "moduleType": [],
+  "homepage": "www.ethereum-computation-market.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "prism": "~1.4.1",
+    "rollbar": "~1.8.3",
+    "tether": "~1.1.1"
+  }
+}

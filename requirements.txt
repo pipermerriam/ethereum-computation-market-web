@@ -1,0 +1,35 @@
+# App server
+gunicorn==19.4.5
+
+# Django
+Django>=1.9.2,<2.0
+
+# Django Storage
+django-storages==1.4
+django-pipeline==1.6.4
+django-s3-folder-storage==0.3
+boto==2.39.0
+
+# REST
+djangorestframework==3.3.2
+
+# Images
+Pillow==3.1.1
+
+# Database
+psycopg2==2.6.1
+
+# Timezone support
+pytz==2015.7
+
+# Configuration
+python-dotenv==0.3.0
+env-excavator==1.4.0
+dj-database-url==0.4.0
+django-cache-url==1.0.0
+
+# Monitoring
+rollbar==0.11.2
+
+# JSON
+django-argonauts==1.1.4
