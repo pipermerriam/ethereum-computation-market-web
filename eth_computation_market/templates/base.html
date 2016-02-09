@@ -20,11 +20,11 @@
 
     <body>
     {% block body %}
-        <nav class="navbar navbar-dark bg-inverse">
+        <nav class="navbar navbar-full navbar-dark bg-inverse">
           <a class="navbar-brand" href="{% url 'site-index' %}">Computation Market</a>
           <ul class="nav navbar-nav pull-md-right">
               <li class="nav-item">
-                <p class="navbar-text">Address: <code>TODO</code></p>
+                <span class="nav-link">Address: <code>TODO</code></span>
               </li>
               <li class="nav-item divider" role="separator"></li>
               {# <li><a class="nav-link" href="{% url 'source-latest' %}">Source</a></li> #}
