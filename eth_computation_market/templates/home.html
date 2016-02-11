@@ -5,13 +5,35 @@
 {% block content_wrapper %}
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <h1>Ethereum Computation Market</h1>
+        <div id="home-top" class="col-md-12">
+            <h1 class="text-md-center">Ethereum Computation Market</h1>
             <div class="col-md-5 col-md-offset-7">
-              <p>The computation marketplace allows for verifiable off-chain
-              execution of computations that would be otherwise prohibitively
-              expensive to execute on-chain.</p>
+              <div class="card">
+                <div class="card-header">
+                  What is it?
+                </div>
+                <div class="card-block">
+                  <p class="card-text">The computation market is a service for
+                  Ethereum that allows for verifiable off-chain execution of
+                  computations that would be otherwise prohibitively expensive to
+                  execute within the EVM.</p>
+                  <div class="text-md-center">
+                    <a href="//docs.ethereum-computation-market.com" class="btn btn-primary"><i class="fa fa-book"></i> Documentation</a>
+                    <a href="https://github.com/pipermerriam/ethereum-computation-market" class="btn btn-primary"><i class="fa fa-github"></i> Source</a>
             </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header bg-danger">
+                Development Status
+              </div>
+              <div class="card-block">
+                <p class="card-text">The computation marketplace is currently
+                under heavy development and should be considered alpha level
+                software.</p>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 </div>

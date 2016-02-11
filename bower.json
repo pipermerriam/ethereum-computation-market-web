@@ -23,6 +23,7 @@
     "bootstrap": "v4.0.0-alpha.2",
     "prism": "~1.4.1",
     "rollbar": "~1.8.3",
-    "tether": "~1.1.1"
+    "tether": "~1.1.1",
+    "font-awesome": "~4.5.0"
   }
 }

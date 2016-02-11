@@ -226,6 +226,7 @@ PIPELINE = {
         'dependencies': {
             'source_filenames': (
                 "bootstrap/dist/css/bootstrap.css",
+                "font-awesome/css/font-awesome.css",
             ),
             'output_filename': 'css/dependencies.css',
         },

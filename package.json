@@ -1,0 +1,24 @@
+{
+  "name": "ethereum-computation-market-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.7.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipermerriam/ethereum-computation-market-web.git"
+  },
+  "author": "Piper Merriam <pipermerriam@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pipermerriam/ethereum-computation-market-web/issues"
+  },
+  "homepage": "https://github.com/pipermerriam/ethereum-computation-market-web#readme",
+  "postinstall": "bower install"
+}

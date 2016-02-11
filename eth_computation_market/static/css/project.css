@@ -2,3 +2,16 @@ body {
     padding-top: 54px;
     background-color: #eee;
 }
+
+div.container {
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+#home-top {
+    background: #fff url("/static/images/mechanical-calculator.png") no-repeat scroll 100px 60px;
+    height: 500px;
+    margin-bottom: 20px;
+    /*
+    */
+}
