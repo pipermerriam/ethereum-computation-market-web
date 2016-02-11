@@ -54,7 +54,6 @@ INSTALLED_APPS = (
     'rest_framework',
     's3_folder_storage',
     'pipeline',
-    'bootstrap3',
     'argonauts',
     # local project
     'eth_computation_market.apps.core',
